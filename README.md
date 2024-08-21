@@ -83,7 +83,7 @@
 1. **프로젝트 클론하기**
 
    ```bash
-   git clone https://github.com/yourusername/starbucks-signin-page.git
+   git clone https://github.com/jmpark24/starbucks.git starbucks-signin-page
    ```
 
 2. **디렉토리로 이동**

@@ -13,21 +13,29 @@
 ### 사용된 라이브러리
 
 - **GSAP (GreenSock Animation Platform)**: 강력한 애니메이션 라이브러리로, 페이지 요소의 애니메이션을 구현합니다.
+
   - **기능**: 배지와 상단 이동 버튼의 애니메이션, 페이드 인 효과 등.
   - **예제**:
     ```javascript
-    gsap.to(badgeEl, .6, { opacity: 0, display: 'none' });
-    gsap.to(window, .7, { scrollTo: 0 });
+    gsap.to(badgeEl, 0.6, { opacity: 0, display: 'none' });
+    gsap.to(window, 0.7, { scrollTo: 0 });
     ```
 
 - **Lodash**: 유틸리티 함수 라이브러리로, 이벤트 스로틀링에 사용됩니다.
+
   - **기능**: 스크롤 이벤트의 호출 빈도를 조절합니다.
   - **예제**:
     ```javascript
-    window.addEventListener('scroll', _.throttle(function () { /*...*/ }, 300));
+    window.addEventListener(
+      'scroll',
+      _.throttle(function () {
+        /*...*/
+      }, 300)
+    );
     ```
 
 - **Swiper**: 슬라이더 라이브러리로, 다양한 슬라이드 기능을 제공합니다.
+
   - **기능**: 공지사항, 프로모션, 어워드 섹션의 슬라이더를 설정합니다.
   - **예제**:
     ```javascript
@@ -43,10 +51,11 @@
     ```
 
 - **ScrollMagic**: 스크롤 기반 애니메이션을 제어하는 라이브러리입니다.
+
   - **기능**: 스크롤 위치에 따라 특정 요소에 클래스를 토글하여 애니메이션을 적용합니다.
   - **예제**:
     ```javascript
-    new ScrollMagic.Scene({ triggerElement: spyEl, triggerHook: .8 })
+    new ScrollMagic.Scene({ triggerElement: spyEl, triggerHook: 0.8 })
       .setClassToggle(spyEl, 'show')
       .addTo(new ScrollMagic.Controller());
     ```
@@ -56,7 +65,7 @@
   - **예제**:
     ```javascript
     var tag = document.createElement('script');
-    tag.src = "https://www.youtube.com/iframe_api";
+    tag.src = 'https://www.youtube.com/iframe_api';
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
     ```
@@ -79,13 +88,13 @@
 
 2. **디렉토리로 이동**
 
-```bash
-cd starbucks-signin-page
-```
+   ```bash
+   cd starbucks-signin-page
+   ```
 
 3. **파일 열기**
 
-- index.html 파일을 웹 브라우저에서 열어 페이지를 확인할 수 있습니다.
+   - index.html 파일을 웹 브라우저에서 열어 페이지를 확인할 수 있습니다.
 
 ## 사용 방법
 

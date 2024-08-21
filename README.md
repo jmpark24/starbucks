@@ -1,1 +1,62 @@
 # Starbucks
+
+# 스타벅스 커피 코리아 로그인 페이지
+
+이 프로젝트는 스타벅스 커피 코리아의 로그인 페이지를 구현한 웹 애플리케이션입니다. 이 페이지는 사용자 로그인, 회원 가입, 아이디 및 비밀번호 찾기 기능을 제공합니다.
+
+## 기술 스택
+
+- **HTML**: 웹 페이지의 구조를 정의합니다.
+- **CSS**: 페이지의 스타일을 적용합니다. (사용된 스타일 시트: `reset-css`, `Nanum Gothic` 폰트, `Material Icons`)
+- **JavaScript**: 페이지의 동작을 제어합니다. (사용된 스크립트: `common.js`)
+
+## 설치 방법
+
+1. **프로젝트 클론하기**
+
+   ```bash
+   git clone https://github.com/yourusername/starbucks-signin-page.git
+   ```
+
+2. **디렉토리로 이동**
+
+```bash
+cd starbucks-signin-page
+```
+
+3. **파일 열기**
+
+- index.html 파일을 웹 브라우저에서 열어 페이지를 확인할 수 있습니다.
+
+## 사용 방법
+
+1. 웹 브라우저에서 signin.html 파일을 열어 로그인 페이지를 확인합니다.
+2. 페이지 상단의 메뉴를 통해 다양한 스타벅스 관련 정보를 탐색할 수 있습니다.
+3. 로그인 폼을 사용하여 로그인 정보를 입력하고 로그인 버튼을 클릭하여 인증을 시도할 수 있습니다.
+4. 로그인 폼 아래의 링크를 사용하여 회원 가입, 아이디 찾기, 비밀번호 찾기 등의 기능을 이용할 수 있습니다.
+
+## 파일 구조
+
+- index.html - 메인 페이지 HTML 파일
+- signin/ - 로그인 페이지 디렉토리
+  - index.html - 로그인 페이지 HTML 파일
+- css/ - CSS 스타일 시트 디렉토리
+  - common.css - 공통 스타일
+  - main.css - 메일 페이지 전용 스타일
+  - signin.css - 로그인 페이지 전용 스타일
+- images/ - 이미지 파일 디렉토리
+- js/ - JavaScript 파일 디렉토리
+  - common.js - 공통 JavaScript 코드
+  - main.js - 메인 페이지 JavaScript 코드
+  - youtube.js - youtube 라이브러리 JavaScript 코드
+
+## 연락처
+
+프로젝트에 대한 문의 사항이 있으시면 다음 연락처로 문의해 주세요:
+
+이메일: stylack@gmail.com
+Blog: https://dry-curry.tistory.com/
+
+```
+이 Markdown 문서는 명확하게 각 섹션을 나누어 작성하였으며, 코드 블록과 링크를 포함하고 있습니다. 이를 통해 GitHub 리포지토리의 `README.md` 파일에 쉽게 사용할 수 있습니다.
+```
